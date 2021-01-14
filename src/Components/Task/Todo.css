@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.todo_form {
+    width: 45%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin: 5px auto;
+}
+
+.form_button{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form_btn {
+    padding: 10px 15px;
+    margin: 0 15px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+.form_btn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
